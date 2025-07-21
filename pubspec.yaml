@@ -1,0 +1,34 @@
+name: wcm_ministry_app_full
+
+description: WCM Ministry App Full Project
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  youtube_player_flutter: ^8.1.2
+  google_maps_flutter: ^2.1.1
+  share_plus: ^7.2.1
+  url_launcher: ^6.2.6
+  table_calendar: ^3.0.9
+  lucide_icons: ^0.257.0
+  font_awesome_flutter: ^10.7.0
+  
+  # Firebase Dependencies - Commented out due to web compatibility issues
+  # firebase_core: ^2.24.2
+  # firebase_auth: ^4.15.3
+  # cloud_firestore: ^4.13.6
+  # firebase_storage: ^11.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/wcm_logo.png
